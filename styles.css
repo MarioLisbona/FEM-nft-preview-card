@@ -1,0 +1,63 @@
+/* =================ROOT========================*/
+:root {
+    --info-color: hsl(215, 51%, 70%);
+    --eth-cost-color: hsl(178, 100%, 50%);
+    --bg-color: hsl(217, 54%, 11%);
+    --bg-card-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+/* =================ROOT========================*/
+
+
+
+/* =================RESETS========================*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================RESETS========================*/
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Frontend Mentor Footer */
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
