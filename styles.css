@@ -5,6 +5,7 @@
     --bg-color: hsl(217, 54%, 11%);
     --bg-card-color: hsl(216, 50%, 16%);
     --line-color: hsl(215, 32%, 27%);
+    --cyan: hsl(178, 100%, 50%);
     --white: hsl(0, 0%, 100%);
 }
 /* =================ROOT========================*/
@@ -15,6 +16,7 @@
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 
 h1, h2, h3, p {
@@ -34,6 +36,102 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: var(--bg-color);
+}
+
+.card-container {
+    background-color: var(--bg-card-color);
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-radius: .5em;
+    box-shadow: 10px 10px 20px 0 hsl(216, 50%, 6%);
+}
+
+.title {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.info {
+    font-size: .75em;
+    font-weight: 300;
+    color: var(--info-color);
+}
+
+
+.hero-image-container img {
+    max-width: 100%;
+    border-radius: .5em;
+}
+
+.eth-time-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth-icon, .time-icon {
+    margin-right: .3em;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth-price {
+    color: var(--cyan);
+    font-size: .75em;
+    font-weight: 600;
+}
+
+.time-left, .creation-of {
+    color: var(--info-color);
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.creator-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid var(--info-color);
+    padding-top: .7em;
+}
+
+.creator-icon {
+    width: 15%
+}
+
+.creator-icon img {
+    max-width: 70%;
+    border: 1px solid white;
+    border-radius: 99999px;
+}
+
+.creator-name {
+    color: var(--white);
+    font-size: .75em;
+    font-weight: 300;
+}
+
+.creation-of {
+    padding-right: .7em;
 }
 
 
