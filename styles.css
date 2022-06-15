@@ -201,4 +201,8 @@ body {
         opacity: 1;
     }
 
+    .attribution {
+        bottom: 5px;
+    }
+
 }
