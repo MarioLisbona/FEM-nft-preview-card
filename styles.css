@@ -134,6 +134,10 @@ body {
     padding-right: .7em;
 }
 
+.title:hover, .creator-name:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
 
 
 
@@ -142,8 +146,21 @@ body {
 
 
 
-
-
+/* .hero-image-container:hover:after {
+    content:'';
+    transform: translate(0, -100%);
+    border-radius: .5em;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--cyan);
+    opacity: 0.5;
+    background-image: url(./images/icon-view.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} */
 
 /* Frontend Mentor Footer */
 
