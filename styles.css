@@ -40,8 +40,10 @@ body {
 
 .card-container {
     background-color: var(--bg-card-color);
-    width: 20vw;
-    height: 70vh;
+    max-width: 18rem;
+    /* I tried to remove the height and let the elements inside the card dictate its height
+    This worked but it remove the hover overlay and moved the position of the image */
+    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,12 +58,14 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: var(--white);
+    margin-top: 2em;
 }
 
 .info {
     font-size: .75em;
     font-weight: 300;
     color: var(--info-color);
+    margin: 2em 0;
 }
 
 
@@ -75,6 +79,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .eth-container {
