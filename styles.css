@@ -180,3 +180,25 @@ body {
 .attribution a {
      color: var(--white);
     }
+
+
+@media (max-width: 375px) {
+    .card-container {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .title:active, .creator-name:active {
+        color: var(--cyan);
+        cursor: pointer;
+    }
+
+    .overlay:active {
+        opacity: 0.4;
+    }
+    
+    .overlay:active img {
+        opacity: 1;
+    }
+
+}
