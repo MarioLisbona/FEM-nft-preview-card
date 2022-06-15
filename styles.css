@@ -144,8 +144,8 @@ body {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
-    background-color: var(--cyan);
+    transition: .1s linear;
+    background-color: hsla(178, 100%, 50%, 0.3);
     transform: translate(0, -100%);
     border-radius: .5em;
   }
@@ -153,12 +153,12 @@ body {
 .overlay img {
     opacity: 0;
     position: absolute;
-    top: 38%;
+    top: 40%;
     right: 40%;
 }
 
 .overlay:hover {
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .overlay:hover img {
